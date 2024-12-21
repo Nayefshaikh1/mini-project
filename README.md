@@ -26,7 +26,7 @@ A simple and responsive weather application built using **React.js**, **APIs**, 
 
 ## Demo
 
-![Weather App Screenshot](https://via.placeholder.com/800x400.png?text=Weather+App+Screenshot)
+![Weather App Screenshot](https://github.com/user-attachments/assets/42ccb8c9-b8c8-440a-8ebd-d6efd03d37ba)
 
 Check out the live demo: [Weather App](https://your-demo-link.com)
 
@@ -56,6 +56,8 @@ Follow these steps to set up the project locally:
 
 3. Create a `.env` file in the root directory and add your API key:
    ```env
+   const API_URL="https://api.openweathermap.org/data/2.5/weather";
+   const API_KEY="253401d8f7f2e3f4b063377bfcf86559";
    REACT_APP_WEATHER_API_KEY=your_api_key_here
    ```
 
@@ -68,7 +70,7 @@ Follow these steps to set up the project locally:
 
 ## Usage
 
-1. Open the app in your browser at `http://localhost:3000/`.
+1. Open the app in your browser at ` http://localhost:5173/`.
 2. Enter a city name in the search bar and hit "Enter."
 3. View the current weather data including temperature, humidity, and conditions.
 
